@@ -9,5 +9,6 @@ feature "user signup" do
         click_on "Sign up"
 
         expect(page).to have_current_path(root_path)
+        expect(page).to have_content "Welcome, you signed up!"
     end
 end
