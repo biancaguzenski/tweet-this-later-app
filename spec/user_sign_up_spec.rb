@@ -8,6 +8,6 @@ feature "user signup" do
         fill_in "Password confirmation", with: "password"
         click_on "Sign up"
 
-        expect(page).to have_current_path(root_path(post))
+        expect(page).to have_current_path(root_path)
     end
 end
