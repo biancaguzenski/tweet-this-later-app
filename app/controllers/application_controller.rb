@@ -9,4 +9,9 @@ class ApplicationController < ActionController::Base
             # create current model
         end
     end
+
+    def require_user_logged_in!
+        redirect_to sign_in_path, alert: "You must be signed in to do that" if Current.user.nil?
+        # redirect user to login if they are not there
+    end
 end
