@@ -1,5 +1,5 @@
-<h1>Sign up</h1>
-<%= form_with model: @user, url: sign_up_path, local: true do |form| %>
+<h1>Edit password</h1>
+<%= form_with model: Current.user, url: edit_password_path, local: true do |form| %>
 
     <% if form.object.errors.any? %>
         <div class="alert alert-danger">
@@ -9,10 +9,6 @@
         </div>
     <% end %>
     <div class="mb-3">
-        <%= form.label :email %>
-        <%= form.text_field :email, class:"form-control", placeholder: "louise@mail.com" %>
-    </div>
-    <div class="mb-3">
         <%= form.label :password %>
         <%= form.password_field :password, class:"form-control" %>
     </div>
@@ -21,6 +17,6 @@
         <%= form.password_field :password_confirmation, class:"form-control" %>
     </div>
     <div class="mb-3">
-        <%= form.submit "Sign up", class:"btn btn-outline-info" %>
+        <%= form.submit "Update password", class:"btn btn-outline-info" %>
     </div>
 <% end %>
