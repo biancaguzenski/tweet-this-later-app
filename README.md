@@ -1,4 +1,4 @@
-<h2 align="center"><a href=""> Scheduled tweets: a Buffer clone </a></h2>
+<h2 align="center"><a href="https://scheduledtweets.herokuapp.com/"> Scheduled tweets: a Buffer clone </a></h2>
 <h5 align="center">UNDER DEVELOPMENT PROCESS :warning: </h5>
 
 <p align="center">
@@ -21,6 +21,7 @@
 ## Services
 
 * [Github](https://github.com/)
+* [Heroku](https://heroku.com/)
 
 ## How to use
 
