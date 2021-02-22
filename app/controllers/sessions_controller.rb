@@ -9,8 +9,7 @@
             session[:user_id] = user.id
             redirect_to root_path, notice: "Logged in successfully"
         else
-            flash[:alert] = "Invalid email or password"
-            render :new
+            redirect_to sign_in_path, notice: "Invalid email or password"
         end
 
     end
