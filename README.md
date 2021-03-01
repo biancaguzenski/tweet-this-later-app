@@ -1,4 +1,4 @@
-<h2 align="center"><a href="https://scheduledtweets.herokuapp.com/"> Scheduled tweets: a Buffer clone </a></h2>
+<h2 align="center"><a href="https://tweetthislater.herokuapp.com/"> Tweet this later: a Buffer clone </a></h2>
 <h5 align="center">UNDER DEVELOPMENT PROCESS :warning: </h5>
 
 <p align="center">
